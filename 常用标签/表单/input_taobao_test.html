@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ilogin_test</title>
+		<style>
+			body{
+				background: url(https://gtms01.alicdn.com/tps/i1/TB1GTCYLXXXXXcHXpXXcoeQ2VXX-2500-600.jpg) /* repeat fixed center */;
+				/* 背景图片填充 */
+				background-size: cover;
+				/* 背景图片不重复 */
+				background-repeat: no-repeat;
+				/*  */
+				padding-left: 60%;
+			}
+			h2{
+				/* margin-top: 10px; 整个页面下移10px*/
+				line-height: 50px;
+			}
+			div{
+				width:350px;
+				height:350.8px;
+				/* rgba a表示透明度 */
+				background-color: rgba(255,255,255,0.8); 
+				/* 20200206 */
+				padding-left: 20px;
+			}
+			/* 属性选择器 */
+			input[type="search"]{
+				background-image: url(../img/nickname.svg);
+				/* 背景图左对齐 */
+				background-position: left;
+				/* 背景图宽高为42px */
+				background-size: 42px;
+				/* 背景图不重复 */
+				background-repeat: no-repeat;
+				/* 光标右移 */
+				text-indent: 42px;
+				/* 去掉边框 */
+				border:0px;
+				height: 42px;
+				width: 300px;
+				margin-top: 1px;
+			}
+			input[type="password"]{
+				background-image: url(../img/密码.svg);
+				/* 背景图左对齐 */
+				background-position: left;
+				/* 背景图宽高为42px */
+				background-size: 42px;
+				/* 背景图不重复 */
+				background-repeat: no-repeat;
+				/* 光标右移 */
+				text-indent: 42px;
+				/* 去掉边框 */
+				border:0px;
+				height: 42px;
+				width: 300px;
+				margin-top: 15px;
+			}
+			/* 标签选择器 */
+			button{
+				/*  */
+				margin-top: 15px;
+				width: 300px;
+				height: 42px;
+				background-color: #ff4400;
+				color: white;
+				border: 0px;
+				border-radius: 3px;
+			}
+			li{
+				/* 去黑点 */
+				list-style: none;
+				/* float:left; */
+			}
+			a{
+				background-color: #D3D3D3;
+				font-size:smaller;
+				text-decoration:none;
+				
+			}
+			a:link{
+				color:grey;
+				text-decoration:none;
+			}
+			a:hover{
+				color:blue;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>密码登陆</h2>			 
+			<!-- <input style="background-image: url(../img/nickname.svg); background-size: 15px 15px;background-repeat: no-repeat; text-indent:15px;"  type="search" placeholder="会员名/邮箱/手机号"/>
+			<input style="background-image: url(../img/密码.svg); background-size: 15px 15px;background-repeat: no-repeat; text-indent:15px;" type="password">
+			<input style="background-color: #ff4400; width:175px" type="submit" value="登录"> -->
+			<input type="search" placeholder="会员名/邮箱/手机号"/>
+			<input type="password"/>
+			<button type="submit">登录</button>
+			
+			<ul>
+				<li>
+					<a href="">微博登录</a>
+					<a href="">支付宝登录</a>
+				</li>
+			</ul>
+			
+			<ul>
+				<li>
+					<a href="">忘记密码</a>
+					<a href="">忘记会员名</a>
+					<a href="">免费注册</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

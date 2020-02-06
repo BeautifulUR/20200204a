@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>neusoft/tabletest</title>
+	</head>
+	<body>
+		<!--cellpadding 单元格内容与当前边框间距-->
+		<!--cellspacing 单元格与单元格之间的间距-->
+		<table border="1px" cellspacing="0" cellpadding="10">
+			<tr>
+				<!--表头标签 相比<td>加粗居中-->
+				<th>用户ID</th> 
+				<!--横跨两列 列合并colspan(column span) 将会挤出(1,3)的用户密码-->
+				<th colspan=1>用户密码</th>
+				<th>用户密码</th>
+			</tr>
+			<tr>
+				<!--横跨两行 行合并rowspan 将会挤出(3,3)的data-->
+				<td rowspan=1>Data</td>
+				<td>Data</td>
+				<td>Data</td>
+			</tr>
+			<tr>
+				<td>Data</td>
+				<td>Data</td>
+				<td>Data</td>
+			</tr>
+	</body>
+</html>

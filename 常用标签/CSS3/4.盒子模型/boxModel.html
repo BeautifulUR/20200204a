@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>盒子模型</title>
+		<style>
+			#box{
+				width: 300px;
+				height: 300px;
+				/* 边框 border */
+				border: 1px solid #000000;
+				/* 外边距 margin */
+				margin-left: 50px;
+				margin-top: 50px;
+				/* 内边距 padding-left: 50px;后 div width:300px->350px 解决改变内容的margin*/
+				/* padding-left: 50px; */
+			}
+			p{
+				/* 此时div width 不变 */
+				margin-left: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<p>我是一个段落</p>
+		</div>
+	</body>
+</html>

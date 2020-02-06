@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>neusoft/listtest</title>
+		<style>
+			/*语法格式 p{}*/
+			p{
+				/*web安全色  阿里妈妈iconfont*/
+				color:#009900;  
+			}
+			li{
+				/*去掉黑点*/
+				list-style:none;
+				/*设置宽高*/
+				width:110px;
+				height:40px;
+				/*文字居中 水平直接center 垂直居中 需要设置高度与li标签一致*/
+				text-align: center;
+				line-height:40px;   
+				/*矩形弧形 R角*/
+				border-radius: 5px;
+				/*动画效果*/
+				transition:1s linear;
+			}
+			/*伪类 鼠标经过变色*/
+			li:hover{
+				/*字体颜色*/
+				color:white;
+				background-color: #ff5b36;
+				/*变化鼠标形状 小手*/
+				cursor:pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			存放文本标签，欲改变字体颜色等等
+			HTML p标签不足以支持这个功能，用CSS样式    PS:注释快捷键Ctrl+/
+		-->
+		<p>今天天气非常不错</p>
+		<!-- ../返回上级目录   /返回根目录-->
+		<!-- <img src="../img/logo.svg"/> -->
+		<!--无序列表 add 导航栏制作-->
+		<ul>
+			<li>热门</li>
+			<li>头条</li>
+			<li>视频</li>
+			<li>榜单</li>
+			<li>搞笑</li>
+			<li>社会</li>
+		</ul>
+		<!--有序列表-->
+		<!--  
+		<ol>
+			<li>视频</li>
+			<li>榜单</li>
+		</ol>
+		-->
+	</body>
+</html>
