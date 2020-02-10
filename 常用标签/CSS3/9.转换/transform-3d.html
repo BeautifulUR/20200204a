@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>3d</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#testdiv{
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+				border-radius: 5px;
+				/* 
+				真个过程2S	匀速过渡liner 	鼠标放2S后变							
+				transition: 2s liner 2s;
+				作用在transform上，过渡时间2S
+				transition: transform 2s;
+				多属性过渡
+				transition: transform 2s,background-color 2s,color 2s;
+				*/
+				transition: transform 2s;
+			}
+			/* 鼠标经过 */
+			#testdiv:hover{
+				background-color: orangered;
+				/* 
+				rotateX绕X轴转 
+				rotateY绕Y轴转 
+				默认绕Z轴转
+				*/
+				transform: rotateZ(360deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="testdiv">
+			CSS过渡
+		</div>
+	</body>
+</html>

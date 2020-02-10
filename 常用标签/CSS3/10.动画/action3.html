@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>动画3</title>
+		<style>
+			@keyframes up
+			{
+				0%   {background: limegreen; left:0px; top:0px;}
+				25%  {background: yellow; left:200px; top:0px;}
+				50%  {background: blue; left:200px; top:200px;}
+				75%  {background: green; left:0px; top:200px;}
+				100% {background: red; left:0px; top:0px;}
+			}
+			#a{
+				width: 50px;
+				height: 50px;
+				position: relative;
+				background-color: #3388ff;
+				/* 整个动画3s */
+				animation: up 3s;
+				/* 动画开始延迟2s */
+				animation-delay:2s;
+				/* 播放次数 */
+				animation-iteration-count:infinite;
+				/*方向*/
+				animation-direction:alternate; 
+			}
+		</style>
+	</head>
+	<body>
+		<div id="a">
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>battery</title>
+		<style>
+			/* 规定动画 */
+			@keyframes getBattery
+			{
+				0%   {width: 0; background: forestgreen; }
+				25%  {width: 25px; background: forestgreen; }
+				50%  {width: 50px; background: forestgreen; }
+				75%  {width: 75px; background: forestgreen; }
+				100% {width: 100px; background: forestgreen;  }
+			}
+			#battery-body{
+				position: relative;
+				margin: 0;
+				padding: 0;
+				float: left;
+				width: 100px;
+				height: 30px;
+				border-radius: 2px;
+				border: 5px solid #000000;				
+			}
+			#battery-body div{
+				width: 100px;
+				height: 30px;
+				/* 整个动画3s */
+				animation: getBattery 3s;
+				/* 动画开始延迟1s */
+				animation-delay:1s;
+				/* 播放次数 */
+				animation-iteration-count:infinite;
+				/* 平顺变化 */
+				animation-timing-function: linear;
+			}
+			#battery-head{
+				position: relative;
+				top:12px;
+				float: left;			
+				width: 5px;
+				height: 15px;
+				background-color: #000000;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="battery-body">
+			<div id="present"></div>
+		</div>
+		<div id="battery-head"></div>
+	</body>
+</html>

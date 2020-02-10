@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>cd</title>
+		<style>
+			/* 创建动画 */
+			@keyframes up{
+				0%   {transform: rotate(0deg);  }
+				25%  {transform: rotate(90deg); }
+				50%  {transform: rotate(180deg); }
+				75%  {transform: rotate(270deg); }
+				100% {transform: rotate(360deg); }
+			}
+			#div1{
+				width: 290px;
+				height: 290px;
+				margin-top: 50px;
+				border-radius: 50%;
+				background-color: #00FF00;
+				background-image: url(./img/watch.jpg);
+				background-repeat: no-repeat;
+				text-align: center;
+				line-height: 60px;
+				color: white;
+				/* 定位 */
+				position: relative;
+				/* 整个动画3s */
+				animation: up 5s;
+				/* 播放次数 */
+				animation-iteration-count:infinite;
+				/* 平顺变化 */
+				animation-timing-function: linear;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			
+		</div>
+	</body>
+</html>
