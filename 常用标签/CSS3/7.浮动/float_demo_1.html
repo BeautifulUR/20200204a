@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>浮动</title>
+		<style>
+			#all{
+				border: 1px solid #000000;
+			}
+			/* 浮动会脱离普通定位流 */
+			#a{
+				width: 120px;
+				height: 100px;
+				background-color: red;
+				float:left;
+				/* 透明度 */
+				/* pacity: 0.2; */
+			}
+			#b{
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+				/* float:left;; */
+			}
+		</style>
+	</head>
+	<body>
+		<!-- a覆盖b 	a浮到二楼覆盖了b -->
+		<div id="a"></div>
+		<div id="b"></div>
+		helloworld
+	</body>
+</html>

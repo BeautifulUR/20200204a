@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>相对于视图定位</title>
+		<style>
+			#a{
+				width: 100px;
+				height: 100px;
+				/*	相对于视图定位 */
+				position: fixed;
+				right:100px;
+				background-color: blue;
+			}
+			#b{
+				height: 2000px;
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="a"></div>
+		<div id="b"></div>
+	</body>
+</html>
+
+
+<!-- 
+eg.微信界面
+   <div>
+		整个界面，设置视图定位
+		position: fixed;
+   </div>
+ -->

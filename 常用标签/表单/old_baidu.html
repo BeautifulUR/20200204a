@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>百度一下，你就知道</title>
+		<link rel="stylesheet" href="../css/all.css" />
+		<link rel="stylesheet" href="../css/header.css" />
+		<link rel="stylesheet" href="../css/search.css" />
+		<link rel="stylesheet" href="../css/event.css" />
+		<style type="text/css">
+			div{
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center
+			}
+			input[type="text"]{
+				background-image : url(/img/字体图标2_相机.svg);
+				background-repeat: no-repeat;
+				background-size: 25px;
+				background-position-x: 500px;
+				background-position-y: 9px;
+				margin-top: 15px;
+				margin-bottom: 20px;
+				margin-right: 0px;
+				/* 边框 实线 solid 虚线 dashed */
+				border:1px solid;  
+				width: 536px;
+				height: 40px;
+				font-size: 16px;
+			}
+			input[type="submit"]{
+				margin-left: 0px;
+				border: 0px;
+				width: 104px;
+				height: 44px;
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 38px;
+				color:#fff;
+				background-color: #38f;
+				/* aligin-left:-5px;*/
+				/* float: left; */
+			}
+			input[type="submit"]:hover{
+				cursor: pointer;
+				background-color: #317ef3;
+				fill: #317ef3;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 
+			引入样式的方式
+		 -->
+		<!-- 总体DIV -->
+		<div id="all">
+			<!-- 头部DIV -->
+			<div id="header"></div>
+			<!-- 搜索框及logo -->
+			<div id="search">
+				<div id="logo">
+					
+				</div>
+				<div id="searchFrame">
+					
+				</div>
+				<a href="https://www.baidu.com/s?wd=%e6%96%b0%e5%9e%8b%e5%86%a0%e7%8a%b6%e7%97%85%e6%af%92%e8%82%ba%e7%82%8e&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc" target="_blank" title="众志成城，抗击疫情">
+					<img alt="图片加载错误" width="270px" height="129px" src="https://www.baidu.com/img/pc_1c6e30772d5e4103103bd460913332f9.png">
+				</a>
+				<br/>
+				<input type="text"><input type="submit" value="百度一下">
+			</div>
+			<!-- 国际事件 -->
+			<div id="event"></div>
+		</div>
+	</body>
+</html>

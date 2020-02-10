@@ -1,0 +1,9 @@
+.all{
+	width: auto;
+	height: 4003px;
+	margin: 0;
+	border: 1px solid #000000;
+	padding: 0;
+	/* 字体 */
+	font-family: 'Raleway', sans-serif;
+}

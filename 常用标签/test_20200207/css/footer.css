@@ -1,0 +1,15 @@
+.footer{
+	width:400px;
+	height:140px;
+	border:1px solid #000; 
+}
+
+.footer button{
+	margin-top: 1%;
+	font-size: large;
+	font-family: "楷体";
+	width:360px;
+	height:50px;
+	background-color: #FF4400;
+	border:1px solid #000; 
+}

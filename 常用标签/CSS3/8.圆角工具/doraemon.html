@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>doraemon</title>
+		<style>
+			.blue{
+				width: 508px;
+				height: 508px;
+				background-color: #7dccf3;
+				position: relative;
+				left:50px;
+			}
+			.white{
+				width:420px;
+				height:430px;
+				/* 圆角 */
+				border-radius:47%;
+				background-color: white;
+				position: relative;
+				left:44px;
+				top:39px;
+			}
+			.left{
+				width: 280px;
+				height: 420px;
+				border: 1px solid #red;
+				background-color: white;
+				border-radius: 47%;
+				float: left;
+				margin-left: 17%;
+				opacity: 1;
+			}
+			.cathead{
+				width:130px;
+				height: 130px;
+				margin:auto;
+				margin-top: 100px;
+				margin-left:1%;
+				border-radius:800px 800px 700px 700px;
+				border:1px solid #000000 ;
+				background-color: #03b7ee;
+				
+			}
+			.face{
+				width: 110px;
+				height: 110px;
+				background-color: white;
+				position: absolute;
+				z-index:1;
+				left:85px;
+				top:120px;
+				border-radius:800px 800px 690px 690px;
+			}
+			.nose{
+				width: 19px;
+				height: 14px;
+				background-color: red;
+				/* 椭圆 长宽不一致 */
+				border-radius: 30px;
+				position: absolute;
+				z-index:3;
+				left: 45px;
+				top:18px;
+				/* 阴影 */
+				box-shadow: 0px 0px 10px #990000;
+			}
+			.mustache1{
+				width: 45px;
+				height: 2px;
+				background-color: #000000;
+				/* 倾角 */
+				transform: rotate(15deg);
+				position: absolute;
+				top:42px;
+			}
+			.mustache2{
+				width: 45px;
+				height: 2px;
+				background-color: #000000;
+				transform: rotate(-1deg);
+				position: absolute;
+				top:53px;
+			}
+			.mustache3{
+				width: 45px;
+				height: 2px;
+				background-color: #000000;
+				transform: rotate(-8deg);
+				position: absolute;
+				top:62px;
+			}
+			.mustache4{
+				width: 45px;
+				height: 2px;
+				background-color: #000000;
+				transform: rotate(-15deg);
+				position: absolute;
+				top:42px;
+				left: 65px;
+			}
+			.mustache5{
+				width: 45px;
+				height: 2px;
+				background-color: #000000;
+				transform: rotate(1deg);
+				position: absolute;
+				top:53px;
+				left: 65px;
+			}
+			.mustache6{
+				width: 45px;
+				height: 2px;
+				background-color: #000000;
+				transform: rotate(8deg);
+				position: absolute;
+				top:62px;
+				left: 65px;
+			}
+			.mouth{
+				width:80px;
+				height: 40px;
+				/*	弧 */
+				border: 2px solid #000000;
+				border-radius:50%;
+				border-top: none;
+				border-left: none;
+				border-right: none;
+				position: absolute;
+				z-index: 2;
+				top:51px;
+				left:15px;
+			}
+			.eye1{
+				width: 30px;
+				height: 32px;
+				background-color: white;
+				position: absolute;
+				z-index:2;
+				left:110px;
+				top:110px;
+				border-radius: 50px;
+				/* 阴影 */
+				box-shadow: 0px 0px 10px #000000;
+			}
+			.eye2{
+				width: 30px;
+				height: 32px;
+				background-color: white;
+				position: absolute;
+				z-index:2;
+				left:140px;
+				top:110px;
+				border-radius: 50px;
+				/* 阴影 */
+				box-shadow: 0px 0px 10px #000000;
+			}
+			.eyeball{
+				width: 10px;
+				height: 10px;
+				background-color: #000000;
+				border-radius: 50px;
+				position: absolute;
+				top:11px;
+			}
+			.scarf{
+				width: 80px;
+				height: 11px;
+				background-color: red;
+				border-radius:25px;
+				position: absolute;
+				left: 100px;
+			}
+			.bell{
+				width: 15px;
+				height: 15px;
+				background-color: goldenrod;
+				border-radius:50%;
+				position: absolute;
+				left: 30px;
+			}
+			.vertical_line1{
+				width:0px;
+				height:410px;
+				background-image:radial-gradient(black);
+				border: 1px solid #000000;
+				position: relative;
+				left:150px;
+				/* 竖线受.left cathead影响 why */
+				bottom:223px;
+			}
+			.vertical_line2{
+				width: 2px;
+				height: 50px;
+				background-color: #000000;
+				position: absolute;
+				top:40px;
+				left:53px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 蓝色背景 -->
+		<div class="blue">
+			<!-- 白色背景 -->
+			<div class="white">
+				<div class="left">
+					<!-- 猫头 -->
+					<div class="cathead">
+						<!-- 眼 -->
+						<div class="eye1">
+							<div class="eyeball"></div>
+						</div>
+						<div class="eye2">
+							<div class="eyeball"></div>
+						</div>
+						<!-- 脸 白 -->
+						<div class="face">
+							<!-- 鼻子 -->
+							<div class="nose"></div>
+							<!-- 竖线 -->
+							<div class="vertical_line2"></div>
+							<!-- 胡子 -->
+							<div class="mustache1"></div>
+							<div class="mustache2"></div>
+							<div class="mustache3"></div>
+							<div class="mustache4"></div>
+							<div class="mustache5"></div>
+							<div class="mustache6"></div>
+							<!-- 嘴巴 -->
+							<div class="mouth"></div>
+						</div>
+					</div>
+					<!-- 围脖 -->
+					<div class="scarf"><div>
+					<!-- 铃铛 -->
+					<div class="bell"><div>
+				</div>
+				<!-- 竖线 -->
+				<div class="vertical_line1"></div>
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</div>
+	</body>
+</html>

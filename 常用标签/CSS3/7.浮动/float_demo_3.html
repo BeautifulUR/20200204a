@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#father{
+				border: 5px solid black;
+			}
+			#son1{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				/* 
+				move1 
+				problem
+				son1&son2进入2楼 father div高度变成边框高度，称为高度塌陷
+				*/
+				float:left;
+			}
+			#son2{
+				width: 100px;
+				height: 100px;
+				background-color: green;
+				/* move1 */
+				float:left;
+			}
+			#a{
+				width: 250px;
+				height: 100px;
+				background-color: purple;
+			}
+			#son3{
+				/* 清楚浮动 */
+				clear:both;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="father">
+			<div id="son1">1</div>
+			<div id="son2">2</div>
+			<!-- 
+			move2
+			solution 
+			浮动布局淘汰原因之一
+			-->
+			<div id="son3"></div>
+		</div>
+		<!-- 高度塌陷受影响div -->
+		<div id="a"></div>
+	</body>
+</html>

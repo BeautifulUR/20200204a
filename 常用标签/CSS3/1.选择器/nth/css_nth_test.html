@@ -8,6 +8,19 @@
 			tr:first-child{
 				background-color: #FF4400;
 			}
+			/*
+			错误用法
+			td:nth-child(6)
+			{
+				background-color: #FF4400;
+			}
+			*/
+			tr:nth-child(2){
+				background-color: #FF4400;
+			}
+			li:nth-child(1){
+				background-color: #FF4400;
+			}
 		</style>
 	</head>
 	<body>
@@ -21,5 +34,18 @@
 			<tr><td>6</td></tr>
 			<tr><td>7</td></tr>
 		</table>
+		<ul>
+			<li style="height: 20px;">1</li>
+			<li style="height: 20px;">2</li>
+			<li style="height: 20px;">3</li>
+			<li style="height: 20px;">4</li>
+		</ul>
 	</body>
 </html>
+
+<!-- 
+/* nth选择器 */
+.believe-nav .believe #ulleft ul:last-child{
+	width:145.78px;
+} 
+-->

@@ -1,0 +1,270 @@
+.footer{
+	width: auto;
+	height: 328px;
+	/* border: 1px solid #000000; */
+}
+.footer .footer-widget{
+	width: auto;
+	height: 280px;
+	position: relative;
+	background-color: #2a2b2f;
+	/* border: 1px solid red; */
+}
+.widget-container{
+	width: 1170px;
+	height: 210px;
+	/* div居中 */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+	/* border: 1px solid red; */
+}
+.widget-container .col1{
+	width: 293px;
+	height: 210px;
+	float: left;
+	color: #808080;
+	/* background-color: #03B7EE; */
+}
+.widget-container .col2{
+	width: 195px;
+	height: 189px;
+	position: relative;
+	float: left;
+	/* background-color: red; */
+}
+.widget-container .col3{
+	width: 195px;
+	height: 143px;
+	float: left;
+	position: relative;
+	/* background-color: #03B7EE; */
+}
+.widget-container .col4{
+	width: 195px;
+	height: 189px;
+	float: left;
+	position: relative;
+	/* background-color: #03B7EE; */
+}
+.widget-container .col5{
+	width: 292px;
+	height: 201px;
+	float: left;
+	position: relative;
+	/* background-color: #03B7EE; */
+}
+
+/* 1 */
+.col1 img{
+	width: 112px;
+	height: 26px;
+	position: absolute;
+	top:30px;
+	left: 0px;
+	vertical-align: middle;
+}
+.col1 p{
+	width: 290px;
+	position: absolute;
+	color: white;
+	top:55px;
+	left: 0px;
+}
+.col1 p a{
+	display: block;
+	height: auto;
+	width: auto;
+	color:#808080;
+	text-decoration: none;
+}
+.col p a:hover{
+	/* do not work */
+	
+	text-decoration: underline;
+}
+.col1-1{
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	background-color: #808080;
+	position: absolute;
+	top:190px;
+}
+.col1-1 img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 1px;
+}
+.col1-2{
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:190px;
+	left:35px;
+}
+.col1-2 img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 1px;
+}
+.col1-3{
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:190px;
+	left:70px;
+}
+.col1-3 img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 1px;
+}
+.col1-4{
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:190px;
+	left:105px;
+}
+.col1-4 img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 1px;
+}
+.col1-5{
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:190px;
+	left:140px;
+}
+.col1-5 img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	top: 1px;
+}
+/* 2 */
+.col2 div{
+	margin-left: 38px;
+}
+.col2 .wid-title{
+	color: #808080;
+}
+.col2 ul{
+	margin-top: 10px;
+}
+.col2 ul li{
+	list-style: none;
+	margin-top: 3px;
+	/* border: 1px solid #000; */
+}
+.col2 ul li a{
+	color: white;
+	text-decoration: none;
+}
+.col2 ul li a:hover{
+	color: #66cef6;
+}
+/* 3 */
+.col3 ul{
+	margin-top: 35px;
+}
+.col3 ul li{
+	list-style: none;
+	margin-top: 1px;
+	/* border: 1px solid #000; */
+}
+.col3 ul li a{
+	font-size: 5px;
+	color: white;
+	text-decoration: none;
+}
+.col3 ul li a:hover{
+	color: #66cef6;
+}
+/* 4 */
+.col4 div{
+	color: #808080;
+	margin-left: 10px;
+}
+.col4 ul{
+	margin-top: 10px;
+	margin-left: -30px;
+}
+.col4 ul li{
+	list-style: none;
+	margin-top: 1px;
+	/* border: 1px solid #000; */
+}
+.col4 ul li a{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+}
+.col4 ul li a:hover{
+	color: #66cef6;
+}
+/* 5 */
+.col5 .col5-title{
+	width: auto;
+	height: auto;
+	color: #808080;
+}
+.col5 .col5-span{
+	margin-top: 10px;
+	color: white;
+	font-size: 15px;
+}
+.col5 .input input[type="text"]{
+	margin-top: 5px;
+	border-radius: 5px;
+	width: 260px;
+	height: 30px;
+}
+.col5 .input input[type="button"]{
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 265px;
+	height: 35px;
+	background-color: #66cef6;
+}
+/* footer-text */
+.footer .footer-text{
+	width: auto;
+	height: 48px;
+	background-color: #27262b;
+	/* border: 1px solid red; */
+	position: relative;
+} 
+.footer .footer-text .text-container{
+	width: 1170px;
+	height: 18px;
+	/* 内容居中 */
+	text-align: center;
+	/* 居中 */
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-100%);
+	/* background-color: #808080; */
+}
+.footer .footer-text .text-container p{
+	font-size: 10px;
+	color: #808080;
+}
