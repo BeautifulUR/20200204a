@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>弹性布局</title>
+	</head>
+	<style type="text/css">
+		#container{
+			height: 500px;
+			border: 1px solid #000000;
+			/* 
+			子内容横向排列,改为弹性盒子
+			块级元素		flex
+			内联元素     inline-flex
+			*/
+			display: flex;
+			
+			/* 改变主轴方向*/
+			flex-direction: row;
+			/* 是否超出换行 wrap 换行*/
+			flex-wrap:wrap;	
+			/* 
+				水平对齐方式 		默认flex-start 
+				单行垂直对齐方式		align-items:flex-start;
+				多行垂直对齐方式		align-content:fles-start;
+				排序				order:-1;			
+			*/
+			justify-content: center;
+		}
+		.divs{
+			width: 100px;
+			height: 100px;
+			background-color: #DD5B36;
+			border: 1px solid blue;
+		}
+	</style>
+	<body>
+		<div id="container">
+			<div clsss="divs">1</div>
+			<div clsss="divs">2</div>
+			<div clsss="divs">3</div>
+			<div clsss="divs">4</div>
+		</div>
+	</body>
+</html>

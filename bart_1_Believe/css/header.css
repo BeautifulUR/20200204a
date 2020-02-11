@@ -18,16 +18,21 @@
 	margin-left: 15%;
 	width: auto;
 	height: 26px;
+	padding: 0;
+	/* border: 1px solid #009900; */
 }
 .top ul li{
 	list-style: none;
 	float:left;
 	width: auto;
 	height: 26px;
+	margin-left: 5px;
+	/* border: 1px solid #009900; */
 }
 .top ul li img{
-	width: 17.16px;
+	width: 18px;
 	height: 20px;
+	/* border: 1px solid #009900; */
 }
 .top .middle{
 	float:left;
