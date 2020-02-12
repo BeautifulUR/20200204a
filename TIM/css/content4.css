@@ -1,0 +1,49 @@
+.container1-1 .container1-3 .up4-1{
+	width: 355px;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* background-color: pink; */
+}
+.container1-1 .container1-3 .down4-1{
+	width: 355px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* background-color: pink; */
+}
+.container1-1 .container1-3 .content4-1{
+	width: 355px;
+	height: 60px;
+	/* background-color: #03B7EE; */
+	/* 弹性 */
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.container1-1 .container1-3 .content4-1:active{
+	background-color: #eeeeee;
+}
+/* 微调 */
+.container1-1 .container1-3 .up4-1 #modify a{
+	
+	text-decoration: none;
+}
+.container1-1 .container1-3 .content4-1 .span4-1{
+	width: 355px;
+	height: 20px;
+	font-size: 16px;
+	/* background-color: pink; */
+	color: #2A2B2F;
+}
+.container1-1 .container1-3 .content4-1 .span4-2{
+	width: 355px;
+	height: 30px;
+	font-size: 19px;
+	/* background-color: pink; */
+	border-bottom: 1px solid #808080;
+}

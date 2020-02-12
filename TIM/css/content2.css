@@ -1,0 +1,231 @@
+.container1-1 .container1-2 .content2-1{
+	height: 87.5%;
+	/* width: 375px; */
+	width: auto;
+	background-color: #ffffff;
+	display: flex;
+	/* 多行对齐 */
+	align-content:flex-start;
+	flex-wrap:wrap;
+	/* 超出部分	滚动 */
+	overflow:scroll;			
+} 
+/* 搜索 */
+.container1-1 .container1-2 .content2-1 .search2-1{
+	width: 355px;
+	height: 25px;
+	border: 0;
+	padding: 0;
+	border-top:1px solid #ffffff ;
+	margin-top: 4px;
+	margin-left: 10px;
+	margin-right:10px;
+	background-color:#ffffff;
+}
+.container1-1 .container1-2 .content2-1 .search2-1 input{
+	width: 354px;
+	height: 23px;
+	border: 0;
+	padding: 0;
+	background-image: url(../img/搜索.svg);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position-x: 136px;
+	/* 光标 text-indent*/	
+	/* 文本框边框隐藏 */
+	border-style:none;
+	/* 背景色 */
+	background-color: #dddddd;
+}
+.container1-1 .container1-2 .content2-1 .search2-1 input:placeholder-shown{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 160;
+	color: #27262b;
+}
+.container1-1 .container1-2 .content2-1 .search2-1 input:active{
+	background-image: none;
+}
+.container1-1 .container1-2 .content2-1 .search2-1 input:placeholder-shown:active{
+	text-align: left;
+}
+/* 内容 1*/
+.container1-1 .container1-2 .content2-1 .content2-2{
+	height: 505.09px;
+	width: 355px;
+ 	margin-left: 10px;
+	margin-right: 10px;
+	/* background-color: #03B7EE; */
+	/* position: relative; 20200212 此处引发附加内容(加号下拉菜单)显示沉底*/
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1{
+	height:	100px;
+	width: 355px;
+	border-bottom: 1px solid #808080;
+	/* background-color: #2683ff; */
+	/* 弹性布局 */
+	display: flex;
+	/* 水平 */
+	justify-content: space-between;
+	/* 垂直 */
+	align-items: center;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div{
+	height: 65px;
+	width: 55px;
+	/* background-color: #808080; */
+	/* 弹性布局 */
+	display: flex;
+	/* 水平 */
+	justify-content: center;
+	/* 垂直 */
+	align-items: center;
+	/* 换行 */
+	flex-wrap:wrap;	
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div:active{
+	background-color: #eeeeee;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div:hover{
+	
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div:nth-child(1){
+	margin-left: 5px;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div:nth-child(4){
+	margin-right: 5px;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div img{
+	height: 40px;
+	width: 40px;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-1 div span{
+	font-size: 13px;
+	font-weight: 400;
+}
+/* 内容2 文件图标大底子 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2{
+	height: 400px;
+	width: 355px;
+/* 	border: 1px solid #000;
+	background-color: #3d4fad; */
+	margin-top: 20px;
+	/* 弹性 */
+	display: flex;
+	/* 水平 */
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+/* 文件图标中下底子 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-1{
+	height: 180px;
+	width: 170px;
+	/* background-color: #485cc3; */
+	/* border: 1px solid #000; */
+	/* 弹性 */
+	display: flex;
+	/* 水平 */
+	justify-content: center;
+	/* 垂直 */
+	align-items: flex-start;
+	flex-wrap: wrap;
+}	
+/*.content2-2-2 div:nth-child(4) 微调 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 #div4{
+	margin-left: 10px;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 #div4 img{
+	width: 96px;
+	height: 96px;
+}
+/* 文件图标小底子 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-1 .divcontent{
+	height: 130px;
+	width: 150px;
+	background-color: #eeeeee;
+/* 	background-color: #2863ff; */
+	margin: 0;
+	padding: 0;
+	/* 弹性 */
+	display: flex;
+	/* 水平 */
+	justify-content: center;
+	/* 垂直 */
+	align-items: center;
+	flex-wrap: wrap;
+}
+/* 文件图标 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-2{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #ffffff;
+	background-color: #eeeeee;
+/* 	background-color: #03B7EE; */
+	display: flex;
+	/* 水平 */
+	justify-content: center;
+	/* 垂直 */
+	align-items: center;
+}
+/* 文件图标 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-2 img{
+	height: 45px;
+	width: 45px;
+}
+/* 文件部分 字体 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-1 .divspan{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 150px;
+	/* background-color: pink; */
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-1 .divspan .span1{
+	font-size: 17px;
+	font-weight: 400;
+	display: block;
+	height: 28px;
+	/* background-color: #808080; */
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-2 .content2-2-2-1 .divspan .span2{
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	height: 22px;
+	/* background-color: red; */
+}
+
+
+/* 3 */
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-3{
+	height: 100px;
+	width: 355px;
+	/* background-color: #3d4fad; */
+	/* 弹性 */
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;	
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-3 .span3-1{
+	height: 55px;
+	width: 355px;
+	text-align: center;
+	/* background-color: #317EF3; */
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-3 .span3-1{
+	/* 字体 */
+	font-size: 14px;
+	font-weight: 350;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-3 .span3-2{
+	height: 45px;
+	width: 355px;
+	text-align: center;
+	/* background-color: #03B7EE; */
+	font-size: 14px;
+	font-weight: 350;
+}
+.container1-1 .container1-2 .content2-1 .content2-2 .content2-2-3 .span3-2 a{
+	text-decoration: none;
+}

@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container1-1{
+	width: 375px;
+	height: 667px;
+}
+.container1-2{
+	width: 100%;
+	height: 91%;
+	background-color: #ffffff;
+	/* 弹性盒子 */
+/* 	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start; */
+}

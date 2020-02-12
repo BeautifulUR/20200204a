@@ -1,4 +1,5 @@
 #content{
+	/* 占据剩余页面面积 */
 	flex: 1;
 	background-color: indianred;
 	overflow: scroll;
